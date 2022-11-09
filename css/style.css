@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    padding-left: 50px;
+    height: 50px;
+    color: rgb(228, 167, 33);
+    background-color: white;
+}
+.filter-bar{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(228, 167, 33);
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#cards-album{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.card i{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
